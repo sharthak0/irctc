@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage (cloning git repo) {
       steps{
-      git url: 'https://github.com/sharthak0/irctc.git', brach: main
+      git url: 'https://github.com/sharthak0/irctc.git', branch: main
       } 
     } 
     stage (create war file) {
