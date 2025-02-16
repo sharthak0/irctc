@@ -13,7 +13,7 @@ pipeline {
           
        stage ('SonarQube analysis') {
           tools {
-           scannerHome  'Test-SonarQube Scanner
+           sonarScanner "Test-SonarQube-Scanner"
 '  
            } 
            steps { 
